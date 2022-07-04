@@ -3,18 +3,18 @@ import Image from "next/dist/client/image";
 
 export default function moviezone() {
   return (
-    <div className="h-full bg-[#252a2f]">
+    <div className="h-full bg-[#2e364d]">
       <div
         className="
       container
-      bg-[#252a2f]
+      bg-[#2e364d]
       pt-6
       px-10
       lg:px-72
       pb-20"
       >
         <a href="/">
-          <MdOutlineArrowBackIosNew className="text-2xl   text-[#FFF4D6]" />
+          <MdOutlineArrowBackIosNew className="text-2xl   text-[#fff7f7]" />
         </a>
         <br />
         <div className="text-center pb-10">
@@ -26,7 +26,7 @@ export default function moviezone() {
           lg:text-4xl 
           font-bold 
           text-center
-           text-[#FFF4D6]
+           text-[#fff7f7]
           font-primary"
           >
             Moviez Zone
@@ -48,7 +48,7 @@ export default function moviezone() {
         font-bold 
         lg:text-4xl 
         w-full 
-      text-[#FFF4D6]
+      text-[#fff7f7]
         font-primary"
         >
           Gallery
@@ -62,7 +62,7 @@ export default function moviezone() {
         justify-items-end
         font-semibold 
         font-secondary 
-      text-[#FFF4D6]"
+      text-[#fff7f7]"
         >
           Website {">"}
         </a>
@@ -70,43 +70,45 @@ export default function moviezone() {
         {/* PHOTOS */}
         <div className="grid justify-items-center pt-10">
           <Image
-            src="/images/Group3.jpg"
+            src="/images/moviez1.svg"
             alt="img1"
             width={950}
             height={600}
-            className="rounded-xl"
           />
           <br />
           <Image
-            src="/images/Group4.jpg"
+            src="/images/moviez2.svg"
             alt="img2"
             width={950}
             height={600}
-            className="rounded-xl"
           />
           <br />
           <Image
-            src="/images/Group5.png"
+            src="/images/moviez3.svg"
             alt="img3"
             width={950}
             height={600}
-            className="rounded-xl"
           />
           <br />
           <Image
-            src="/images/Group6.jpg"
+            src="/images/moviez4.svg"
             alt="img4"
             width={950}
             height={600}
-            className="rounded-xl"
           />
           <br />
           <Image
-            src="/images/Group7.jpg"
+            src="/images/moviez5.svg"
             alt="img5"
             width={950}
             height={600}
-            className="rounded-xl"
+          />
+          <br />
+          <Image
+            src="/images/moviez6.svg"
+            alt="img5"
+            width={950}
+            height={600}
           />
         </div>
       </div>

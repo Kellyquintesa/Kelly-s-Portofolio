@@ -70,7 +70,7 @@ export default function delimeat() {
         {/* PHOTOS */}
         <div className="grid justify-items-center pt-10">
           <Image
-            src="/images/Group3.jpg"
+            src="/images/Group3.svg"
             alt="img1"
             width={950}
             height={600}
@@ -78,7 +78,7 @@ export default function delimeat() {
           />
           <br />
           <Image
-            src="/images/Group4.jpg"
+            src="/images/Group4.svg"
             alt="img2"
             width={950}
             height={600}
@@ -86,7 +86,7 @@ export default function delimeat() {
           />
           <br />
           <Image
-            src="/images/Group5.png"
+            src="/images/Group5.svg"
             alt="img3"
             width={950}
             height={600}
@@ -94,7 +94,7 @@ export default function delimeat() {
           />
           <br />
           <Image
-            src="/images/Group6.jpg"
+            src="/images/Group6.svg"
             alt="img4"
             width={950}
             height={600}
@@ -102,7 +102,15 @@ export default function delimeat() {
           />
           <br />
           <Image
-            src="/images/Group7.jpg"
+            src="/images/Group7.svg"
+            alt="img5"
+            width={950}
+            height={600}
+            className="rounded-xl"
+          />
+          <br />
+          <Image
+            src="/images/Group8.svg"
             alt="img5"
             width={950}
             height={600}
