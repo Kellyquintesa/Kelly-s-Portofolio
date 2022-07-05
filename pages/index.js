@@ -451,12 +451,12 @@ export default function Home() {
          "
           >
             <div className="lg:px-32">
-              <div className="p-1 rounded-3xl0  ">
+              <div className="rounded-3xl0 pt-3 ">
                 <Image
-                  src="/images/art.jpg"
+                  src="/images/artthumbnail.svg"
                   alt="delimeat"
                   width={480}
-                  height={700}
+                  height={680}
                   className="rounded-3xl "
                 />
               </div>
