@@ -29,7 +29,7 @@ export default function art() {
           text-[#FFF4D6]
           font-primary"
           >
-            DELIMEAT
+            PERSONAL ART
           </p>
           <p
             className="
@@ -39,7 +39,7 @@ export default function art() {
         text-slate-500
           font-secondary"
           >
-            UI, Product Design, Next.JS
+            Digital Art
           </p>
         </div>
         <span
@@ -58,7 +58,7 @@ export default function art() {
         {/* PHOTOS */}
         <div className="grid justify-items-center pt-10">
           <Image
-            src="/images/Instagram post - 1.png"
+            src="/images/art1.png"
             alt="img1"
             width={950}
             height={950}
@@ -66,7 +66,7 @@ export default function art() {
           />
           <br />
           <Image
-            src="/images/Instagram post - 2.png"
+            src="/images/art2.png"
             alt="img2"
             width={950}
             height={950}
@@ -74,7 +74,7 @@ export default function art() {
           />
           <br />
           <Image
-            src="/images/Instagram post - 3.png"
+            src="/images/art3.png"
             alt="img3"
             width={950}
             height={950}
@@ -82,7 +82,7 @@ export default function art() {
           />
           <br />
           <Image
-            src="/images/Instagram post - 4.png"
+            src="/images/art4.png"
             alt="img4"
             width={950}
             height={950}
@@ -90,7 +90,7 @@ export default function art() {
           />
           <br />
           <Image
-            src="/images/Instagram post - 5.png"
+            src="/images/art5.png"
             alt="img5"
             width={950}
             height={750}
@@ -98,7 +98,7 @@ export default function art() {
           />
           <br />
           <Image
-            src="/images/Instagram post - 6.png"
+            src="/images/art6.png"
             alt="img6"
             width={950}
             height={950}

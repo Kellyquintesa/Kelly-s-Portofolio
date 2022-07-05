@@ -315,43 +315,46 @@ export default function Home() {
                 target="_blank"
                 className="
                 mr-4 
-                hover:text-blue-800 
-                hover:bg-white 
-                hover:rounded-lg"
+              hover:text-blue-800 
+              hover:bg-white
+                hover:rounded-lg
+                text-slate-700"
               >
-                <BsLinkedin className="text-slate-700" />
+                <BsLinkedin />
               </a>
               {/* Github */}
               <a
                 href="https://github.com/Kellyquintesa"
                 target="_blank"
-                class="
+                className="
                 mr-4 
                 hover:text-white 
                 hover:bg-slate-700 
-                hover:rounded-full"
+                hover:rounded-full
+                text-slate-700"
               >
-                <BsGithub className="text-slate-700" />
+                <BsGithub />
               </a>
               {/* Instagram */}
               <a
                 href="https://www.instagram.com/kellyquin20/"
                 target="_blank"
-                class="
+                className="
                 mr-4 
                 hover:bg-pink-400 
                 hover:text-white 
-                hover:rounded-lg"
+                hover:rounded-lg
+                text-slate-700"
               >
                 {" "}
-                <BsInstagram className="text-slate-700" />
+                <BsInstagram />
               </a>
               {/* Gmail */}
               <a
                 href="mailto:kellyquintesa11@gmail.com"
-                class="mr-4 hover:text-red-600"
+                className="mr-4 hover:text-red-600 text-slate-700"
               >
-                <SiGmail className="text-slate-700" />
+                <SiGmail />
               </a>
             </div>
           </div>
